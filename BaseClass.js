@@ -1,5 +1,5 @@
 class BaseClass{
-    constructor(x, y, width, height){
+    constructor(x, y, width, height,angle){
         var options = {
             friction: 2,
             restitution: 0.2,
