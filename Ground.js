@@ -14,7 +14,7 @@ class Ground{
         push();
         rectMode(CENTER);
         strokeWeight(0)
-        fill("transparent");
+        fill("green");
         rect(pos.x, pos.y, this.width, this.height);
         pop();
     }

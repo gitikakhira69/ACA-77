@@ -14,8 +14,8 @@ class Ball {
         var pos = this.body.position;
         push();
         imageMode(CENTER); 
-        scale(0.1)     
-        image(this.image,pos.x, pos.y, this.radius);        
+        this.image.resize(10,10) 
+        image(this.image,pos.x, pos.y, this.radius,this.radius);        
         pop();
     }
 }
